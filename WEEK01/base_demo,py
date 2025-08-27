@@ -1,0 +1,12 @@
+lst = [1,2,3]
+lst.append(1)
+lst[0] = 10
+
+dct = {"name":"Tonny","age":20}
+dct["city"] = "Beijing"
+
+tpl = (1,2,3)
+st = {1,2,3,3,4}
+st.add(5)
+
+print(lst,dct,tpl,st)
