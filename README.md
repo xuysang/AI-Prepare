@@ -1,2 +1,2 @@
 # AI-Prepare
-learn AI step by step
+learn AI step by step.
