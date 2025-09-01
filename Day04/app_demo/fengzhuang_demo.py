@@ -15,7 +15,9 @@ app.add_middleware(
 )
 
 
-classifier = pipeline("sentiment-analysis", model="uer/roberta-base-finetuned-jd-binary-chinese")
+classifier = pipeline("sentiment-analysis",
+    model="./model",
+    tokenizer="./model")
 
 class NewsItem(BaseModel):
     text: str
